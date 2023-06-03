@@ -109,6 +109,12 @@ With this brefly explanation we covered the following topics:
 
 ![IMG](https://i.imgur.com/DRHz8ea.png)
 
+##### 3. Project examples
+
+Here are examples of production ready projects that I have added terraform in order to learn how to use it.
+
+- [Python-FastAPI](./project-1/README.md)
+
 Resources:
 
 - [INSTALL](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
