@@ -1,6 +1,9 @@
 init:
 	terraform init
 
+upgrae:
+	terraform init -upgrade
+
 apply:
 	terraform apply -auto-approve -var-file="secret.tfvars"
 
