@@ -1,8 +1,11 @@
 init:
 	terraform init
 
-upgrae:
+upgrade:
 	terraform init -upgrade
+
+plan:
+	terraform plan -var-file="secret.tfvars"
 
 apply:
 	terraform apply -auto-approve -var-file="secret.tfvars"
